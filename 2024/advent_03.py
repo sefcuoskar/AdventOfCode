@@ -1,6 +1,6 @@
 import re
 
-data = str(open("AdventofCode2024//advent3.txt", "r").read())
+data = str(open("2024//advent_03.txt", "r").read())
 
 search = re.compile(r"mul\(\d{1,3},\d{1,3}\)|do\(\)|don\'t\(\)")
 
@@ -25,3 +25,4 @@ while i < len(result):
 
     i += 1
 
+print(count)
