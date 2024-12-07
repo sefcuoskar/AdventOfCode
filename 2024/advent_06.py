@@ -16,6 +16,8 @@ while i < len(map):
     else:
         i += 1
 
+## TODO: Rozdělená pro část 2, nefunkční
+
 barrier_count = 0
 x,y = 0, 0
 while x < len(map):
